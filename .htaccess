@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php)
+RewriteRule ^$ ?page=home [L]
+
+
+Options All -Indexes
